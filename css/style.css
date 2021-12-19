@@ -22,94 +22,33 @@
  
   
 
-.sidebar-link{
-   display:flex;
-   align-items: center;
-   color: white;
-   opacity: 0.7;
- text-decoration: none;
-  
+#offcanvasNavbar{
+  width: 30vh;
 }
-.sidebar-link a:hover{
-    text-decoration: none;
-    color: white !important;
-
-}
-
-.sidebar-link .right-icon{
-   display: inline-flex;
-   transition: all 0.25s;
-}
-.sidebar-link[aria-expanded="true"].right-icon{
-    transform: rotate(180deg);
-}
-
-
-
-
-.sidebar-nav{
-    width: var(--offcanvas-width);
-    
-}
-
-.card-footer .right-icon{
-  float: inline-end;
-    
- }
-
-
- .sub-sidenavbar-footer{
- text-align: center;
-
- }
-
+.offcanvas-body{
  
- .menu-icon{
-  
-    
-  
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-
-   
-
-    color: white!important;
-   
-   
+  width: 30vh;
 }
 
-
-
-
-  @media (min-width:992px) {
-      body{
-          overflow: auto !important;
-      }
-
-.offcanvas-backdrop::before{
-   display: none; 
+.sidenav-footer{
+  width: 25vh;
+margin-top: 450px ;
+text-align: center;
+  padding: 0.75rem;
+ 
 }
 
-main{
-    margin-left: var(--offcanvas-width) ;
-}
-
-.sidebar-nav{
-    transform: none;
-    visibility: visible !important;
-    top: var(--topNavbarHeight);
-    height:calc(100% -var(--topNavbarHeight)) ;
-       
- }
-
- footer{
-  margin-left: var(--offcanvas-width) ;
- }
+.sb-sidenav-collapse-arrow{
+ display: inline-block;
  
 
+  text-align: end;
+}
+
+
+
+.sb-sidenav-menu-nested a{
+
+  justify-content: space-between;
+  margin: 10px;
 }
