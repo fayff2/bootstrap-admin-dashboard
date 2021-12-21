@@ -40,15 +40,7 @@ text-align: center;
 
 .sb-sidenav-collapse-arrow{
  display: inline-block;
- 
 
   text-align: end;
 }
 
-
-
-.sb-sidenav-menu-nested a{
-
-  justify-content: space-between;
-  margin: 10px;
-}
